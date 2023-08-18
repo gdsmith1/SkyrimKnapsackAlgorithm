@@ -1,0 +1,6 @@
+
+300 - Pheasant Breast (00065C9D)
+10000 - Wolf Pelt (0003AD74)
+600 - Blue Mountain Flower (00077E1C)
+900 - Belted Tunic (0001BE1A)  (100,100.00%) - Outfit **
+10 - nightgale bow (000f652c)
