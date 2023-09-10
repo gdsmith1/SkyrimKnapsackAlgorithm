@@ -69,7 +69,6 @@ int main() {
     cout << "Total weight: " << totalweight << endl;
     cout << (int)inventory.size() << " items\n";
 
-
     vector<knapsackItem> keep = knapsack(inventory, weight);
 
     // Results
@@ -88,18 +87,6 @@ int main() {
 
     return 0;
 }
-
-
-
-/*  RECURSIVE RELATION:
-V[0,j] = 0 if w0 > j
-V[0,j] = vi if w0 <= j
-V[i,j] = V[i-1, j] if wi > j
-V[i,j] = max(V[i-1,j], V[i-1,j-wi]+vi) if wi <=j
-    BACKTRACKING:
-B[i,j] = j if item i is not an optimal solution for the knapsack of capacity j
-B[i,j] = j - wi if item i is an optimal solution for the knapsack of capacity j
-*/
 
 
 
